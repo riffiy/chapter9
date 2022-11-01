@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main{
+  height: 380px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.step1,.step2,.step3{
+  width: 300px;
+  margin: 50px 15px;
+  background-color: #eeeeee;
+}
+
+img{
+  margin: 10px 10px 0px 10px;
+}
+
+.title{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.text{
+  margin: 5px 10px;
+  font-size: x-small;
+}
+
+footer{
+  height: 50px;
+  background-color: #aaaaaa;
+}
