@@ -16,27 +16,45 @@ main{
   justify-content: center;
 }
 
-.step1,.step2,.step3{
+.stepbox{
   width: 300px;
   margin: 50px 15px;
   background-color: #eeeeee;
+  position: relative;
 }
 
 img{
   margin: 10px 10px 0px 10px;
 }
 
+.stepmark{
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  position: absolute;
+  background-color: #FF9A4B;
+  font-size: small;
+  color: #FFFFFF;
+}
+
 .title{
-  margin-top: 10px;
+  margin-top: 5px;
   margin-left: 10px;
+  margin-bottom: -5px;
 }
 
 .text{
   margin: 5px 10px;
-  font-size: x-small;
+  font-size: 73%;
 }
 
 footer{
   height: 50px;
   background-color: #aaaaaa;
+}
+
+@media screen and (max-width:768px){
+  main {
+    display: block
+  }
 }
